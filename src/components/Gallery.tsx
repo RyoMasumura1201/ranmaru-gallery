@@ -1,4 +1,5 @@
 import ImageGallery from "react-image-gallery";
+import { Box } from "@chakra-ui/react";
 
 const images = [
   {
@@ -54,6 +55,7 @@ const images = [
       "https://ranmaru-image.s3.ap-northeast-1.amazonaws.com/F33C43B8-A559-48E6-9632-77AF4C8346B8_1_105_c.jpeg",
     thumbnail:
       "https://ranmaru-image.s3.ap-northeast-1.amazonaws.com/F33C43B8-A559-48E6-9632-77AF4C8346B8_1_105_c.jpeg",
+    sizes: "",
   },
 ];
 export const Gallery = () => {
