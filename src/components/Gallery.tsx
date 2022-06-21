@@ -1,5 +1,5 @@
 import ImageGallery from "react-image-gallery";
-import { Box } from "@chakra-ui/react";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
